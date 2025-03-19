@@ -1,3 +1,5 @@
+Hosted demo: https://e-library-prakhar-frugal.vercel.app/
+
 This is a demo assignment project made for frugal testing.
 assignment number 1: E library.
 Instructions to store data locally were followed, hence no database file is attached.
