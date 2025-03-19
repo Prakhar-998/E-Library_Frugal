@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Library Management</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>E-Library Management System</h1>
+
+    <!-- Dark Mode Toggle -->
+    <button id="dark-mode-toggle">Toggle Dark Mode</button>
+
+    <!-- Sign-In System -->
+    <div id="auth-section">
+        <input type="text" id="username" placeholder="Enter your name">
+        <button onclick="signIn()">Sign In</button>
+        <p id="welcome-message" style="display:none;"></p>
+        <button onclick="signOut()" style="display:none;">Sign Out</button>
+    </div>
+    
+    <!-- Search Bar -->
+    <input type="text" id="search" placeholder="Search by title, author, or category">
+    <button onclick="searchBooks()">Search</button>
+    
+    <!-- Book List -->
+    <h2>Available Books</h2>
+    <ul id="book-list"></ul>
+    
+    <!-- Borrowed Books -->
+    <h2>Borrowed Books</h2>
+    <ul id="borrowed-books"></ul>
+    
+    <script src="script.js"></script>
+</body>
+</html>
