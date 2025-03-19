@@ -209,6 +209,7 @@ function checkUserSession() {
 
 function loadBooks() {
     let books = [
+        { title: "Python Automation", author: "Al Sweigart" },
         { title: "Book 1", author: "Author A" },
         { title: "Book 2", author: "Author B" },
         { title: "Book 3", author: "Author C" }
@@ -225,6 +226,7 @@ function loadBooks() {
         bookList.appendChild(li);
     });
 }
+
 
 function loadBorrowedBooks() {
     let username = localStorage.getItem("libraryUser");

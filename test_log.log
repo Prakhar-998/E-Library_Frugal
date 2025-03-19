@@ -1,0 +1,179 @@
+2025-03-19 10:17:49,875 - ====== WebDriver manager ======
+2025-03-19 10:17:50,991 - Get LATEST chromedriver version for google-chrome
+2025-03-19 10:17:51,089 - Get LATEST chromedriver version for google-chrome
+2025-03-19 10:17:51,113 - There is no [win64] chromedriver "134.0.6998.88" for browser google-chrome "134.0.6998" in cache
+2025-03-19 10:17:51,113 - Get LATEST chromedriver version for google-chrome
+2025-03-19 10:17:51,284 - WebDriver version 134.0.6998.88 selected
+2025-03-19 10:17:51,290 - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/134.0.6998.88/win32/chromedriver-win32.zip
+2025-03-19 10:17:51,290 - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/134.0.6998.88/win32/chromedriver-win32.zip
+2025-03-19 10:17:51,408 - Driver downloading response is 200
+2025-03-19 10:17:53,804 - Get LATEST chromedriver version for google-chrome
+2025-03-19 10:17:54,674 - Driver has been saved in cache [C:\Users\Prakhar\.wdm\drivers\chromedriver\win64\134.0.6998.88]
+2025-03-19 10:17:54,690 - Error in chrome: 'str' object has no attribute 'capabilities'
+2025-03-19 10:18:01,522 - ====== WebDriver manager ======
+2025-03-19 10:18:02,463 - Get LATEST chromedriver version for google-chrome
+2025-03-19 10:18:02,513 - Get LATEST chromedriver version for google-chrome
+2025-03-19 10:18:02,561 - Driver [C:\Users\Prakhar\.wdm\drivers\chromedriver\win64\134.0.6998.88\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-19 10:18:02,561 - Error in chrome: 'str' object has no attribute 'capabilities'
+2025-03-19 10:19:13,095 - ====== WebDriver manager ======
+2025-03-19 10:19:14,091 - Get LATEST chromedriver version for google-chrome
+2025-03-19 10:19:14,136 - Get LATEST chromedriver version for google-chrome
+2025-03-19 10:19:14,177 - Driver [C:\Users\Prakhar\.wdm\drivers\chromedriver\win64\134.0.6998.88\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-19 10:19:14,178 - Error in chrome: 'str' object has no attribute 'capabilities'
+2025-03-19 10:19:14,178 - ====== WebDriver manager ======
+2025-03-19 10:19:15,128 - Get LATEST geckodriver version for None firefox
+2025-03-19 10:19:15,518 - Getting latest mozilla release info for v0.36.0
+2025-03-19 10:19:15,872 - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-win64.zip
+2025-03-19 10:19:17,302 - Driver downloading response is 200
+2025-03-19 10:19:17,857 - Get LATEST geckodriver version for None firefox
+2025-03-19 10:19:18,982 - Get LATEST geckodriver version for None firefox
+2025-03-19 10:19:19,493 - Driver has been saved in cache [C:\Users\Prakhar\.wdm\drivers\geckodriver\win64\v0.36.0]
+2025-03-19 10:19:19,493 - Error in firefox: WebDriver.__init__() got an unexpected keyword argument 'executable_path'
+2025-03-19 10:19:19,493 - ====== WebDriver manager ======
+2025-03-19 10:19:20,385 - Get LATEST edgedriver version for Edge 133.0.3065
+2025-03-19 10:19:20,459 - Get LATEST edgedriver version for Edge 133.0.3065
+2025-03-19 10:19:20,508 - There is no [win64] edgedriver "133.0.3065.92" for browser edge "133.0.3065" in cache
+2025-03-19 10:19:20,508 - Get LATEST edgedriver version for Edge 133.0.3065
+2025-03-19 10:19:20,635 - About to download new driver from https://msedgedriver.azureedge.net/133.0.3065.92/edgedriver_win64.zip
+2025-03-19 10:19:20,730 - Driver downloading response is 200
+2025-03-19 10:19:23,935 - Get LATEST edgedriver version for Edge 133.0.3065
+2025-03-19 10:19:25,890 - Driver has been saved in cache [C:\Users\Prakhar\.wdm\drivers\edgedriver\win64\133.0.3065.92]
+2025-03-19 10:19:25,905 - Error in edge: 'str' object has no attribute 'capabilities'
+2025-03-19 10:31:39,583 - ====== WebDriver manager ======
+2025-03-19 10:31:40,617 - Get LATEST chromedriver version for google-chrome
+2025-03-19 10:31:40,680 - Get LATEST chromedriver version for google-chrome
+2025-03-19 10:31:40,712 - Driver [C:\Users\Prakhar\.wdm\drivers\chromedriver\win64\134.0.6998.88\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-19 10:31:43,064 - Testing on chrome
+2025-03-19 10:31:46,057 - Page loaded successfully with title: E-Library Management
+2025-03-19 10:31:46,073 - Search box or results not found for book: Python Automation
+2025-03-19 10:31:46,086 - Borrow button for 'Python Automation' not found.
+2025-03-19 10:31:47,164 - Error in chrome: Alert Text: Please sign in first
+Message: unexpected alert open: {Alert text : Please sign in first}
+  (Session info: chrome=134.0.6998.89)
+Stacktrace:
+	GetHandleVerifier [0x011DB5A3+24387]
+	(No symbol) [0x01165904]
+	(No symbol) [0x01040753]
+	(No symbol) [0x010CFB06]
+	(No symbol) [0x010AD646]
+	(No symbol) [0x0107C59F]
+	(No symbol) [0x0107D8E4]
+	GetHandleVerifier [0x014DD883+3179043]
+	GetHandleVerifier [0x014F6CF9+3282585]
+	GetHandleVerifier [0x014F167C+3260444]
+	GetHandleVerifier [0x01274330+650448]
+	(No symbol) [0x0116ED0D]
+	(No symbol) [0x0116BAF8]
+	(No symbol) [0x0116BC99]
+	(No symbol) [0x0115E530]
+	BaseThreadInitThunk [0x76AE5D49+25]
+	RtlInitializeExceptionChain [0x7779CE3B+107]
+	RtlGetAppContainerNamedObjectPath [0x7779CDC1+561]
+
+2025-03-19 10:31:49,333 - ====== WebDriver manager ======
+2025-03-19 10:31:50,230 - Get LATEST geckodriver version for None firefox
+2025-03-19 10:31:50,592 - Getting latest mozilla release info for v0.36.0
+2025-03-19 10:31:50,932 - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-win64.zip
+2025-03-19 10:31:56,554 - Driver downloading response is 200
+2025-03-19 10:31:57,169 - Get LATEST geckodriver version for None firefox
+2025-03-19 10:31:57,716 - Get LATEST geckodriver version for None firefox
+2025-03-19 10:31:58,308 - Driver has been saved in cache [C:\Users\Prakhar\.wdm\drivers\geckodriver\win64\v0.36.0]
+2025-03-19 10:32:03,405 - Error in firefox: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line
+
+2025-03-19 10:32:07,466 - ====== WebDriver manager ======
+2025-03-19 10:32:08,522 - Get LATEST edgedriver version for Edge 133.0.3065
+2025-03-19 10:32:08,696 - Get LATEST edgedriver version for Edge 133.0.3065
+2025-03-19 10:32:08,867 - Driver [C:\Users\Prakhar\.wdm\drivers\edgedriver\win64\133.0.3065.92\msedgedriver.exe] found in cache
+2025-03-19 10:32:10,409 - Testing on edge
+2025-03-19 10:32:13,041 - Page loaded successfully with title: E-Library Management
+2025-03-19 10:32:13,055 - Search box or results not found for book: Python Automation
+2025-03-19 10:32:13,075 - Borrow button for 'Python Automation' not found.
+2025-03-19 10:32:14,211 - Error in edge: Alert Text: Please sign in first
+Message: unexpected alert open: {Alert text : Please sign in first}
+  (Session info: MicrosoftEdge=134.0.3124.72)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7E9B1E735+13397]
+	Microsoft::Applications::Events::EventProperty::empty [0x00007FF7E9DAB234+2060404]
+	Microsoft::Applications::Events::EventProperty::empty [0x00007FF7E9D02338+1368440]
+	(No symbol) [0x00007FF7E993205E]
+	(No symbol) [0x00007FF7E9913FC3]
+	(No symbol) [0x00007FF7E98E8B96]
+	(No symbol) [0x00007FF7E98E7E50]
+	(No symbol) [0x00007FF7E98E89C3]
+	(No symbol) [0x00007FF7E9970214]
+	(No symbol) [0x00007FF7E9A006CF]
+	(No symbol) [0x00007FF7E9973A53]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7E9E6463D+279981]
+	simdutf::get_active_implementation [0x00007FF7E9AA78C1+409425]
+	simdutf::get_active_implementation [0x00007FF7E9AA2BA4+389684]
+	simdutf::get_active_implementation [0x00007FF7E9AA2CE9+390009]
+	simdutf::get_active_implementation [0x00007FF7E9A962E6+338294]
+	BaseThreadInitThunk [0x00007FF8583BE8D7+23]
+	RtlUserThreadStart [0x00007FF85A59BF6C+44]
+
+2025-03-19 10:36:01,627 - ====== WebDriver manager ======
+2025-03-19 10:36:02,659 - Get LATEST chromedriver version for google-chrome
+2025-03-19 10:36:02,697 - Get LATEST chromedriver version for google-chrome
+2025-03-19 10:36:02,729 - Driver [C:\Users\Prakhar\.wdm\drivers\chromedriver\win64\134.0.6998.88\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-19 10:36:03,922 - Testing on chrome
+2025-03-19 10:36:06,609 - Signed in successfully
+2025-03-19 10:36:08,712 - Page loaded successfully with title: E-Library Management
+2025-03-19 10:36:08,726 - Search box or results not found for book: Python Automation
+2025-03-19 10:36:08,742 - Borrow button for 'Python Automation' not found.
+2025-03-19 10:36:12,978 - Error in chrome: Borrow limit alert not shown
+2025-03-19 10:36:15,174 - ====== WebDriver manager ======
+2025-03-19 10:36:16,003 - Get LATEST geckodriver version for None firefox
+2025-03-19 10:36:16,371 - Getting latest mozilla release info for v0.36.0
+2025-03-19 10:36:16,486 - Error in firefox: response body:
+{"message":"API rate limit exceeded for 103.47.74.66. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)","documentation_url":"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting"}
+
+request url:
+https://api.github.com/repos/mozilla/geckodriver/releases/tags/v0.36.0
+response headers:
+{'Date': 'Wed, 19 Mar 2025 05:06:16 GMT', 'Server': 'Varnish', 'Strict-Transport-Security': 'max-age=31536000; includeSubdomains; preload', 'X-Content-Type-Options': 'nosniff', 'X-Frame-Options': 'deny', 'X-XSS-Protection': '1; mode=block', 'Content-Security-Policy': "default-src 'none'; style-src 'unsafe-inline'", 'Access-Control-Allow-Origin': '*', 'Access-Control-Expose-Headers': 'ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-RateLimit-Used, X-RateLimit-Resource, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset', 'Content-Type': 'application/json; charset=utf-8', 'Referrer-Policy': 'origin-when-cross-origin, strict-origin-when-cross-origin', 'X-GitHub-Media-Type': 'github.v3; format=json', 'X-RateLimit-Limit': '60', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1742362989', 'X-RateLimit-Resource': 'core', 'X-RateLimit-Used': '60', 'Content-Length': '278', 'X-GitHub-Request-Id': 'E5B6:1C41A0:5C4AC5:766212:67DA50C8'}
+
+2025-03-19 10:36:16,486 - ====== WebDriver manager ======
+2025-03-19 10:36:17,387 - Get LATEST edgedriver version for Edge 134.0.3124
+2025-03-19 10:36:17,450 - Get LATEST edgedriver version for Edge 134.0.3124
+2025-03-19 10:36:17,540 - There is no [win64] edgedriver "134.0.3124.72" for browser edge "134.0.3124" in cache
+2025-03-19 10:36:17,540 - Get LATEST edgedriver version for Edge 134.0.3124
+2025-03-19 10:36:17,698 - About to download new driver from https://msedgedriver.azureedge.net/134.0.3124.72/edgedriver_win64.zip
+2025-03-19 10:36:17,812 - Driver downloading response is 200
+2025-03-19 10:36:21,124 - Get LATEST edgedriver version for Edge 134.0.3124
+2025-03-19 10:36:26,144 - Driver has been saved in cache [C:\Users\Prakhar\.wdm\drivers\edgedriver\win64\134.0.3124.72]
+2025-03-19 10:36:27,441 - Testing on edge
+2025-03-19 10:36:29,839 - Signed in successfully
+2025-03-19 10:36:31,935 - Page loaded successfully with title: E-Library Management
+2025-03-19 10:36:31,953 - Search box or results not found for book: Python Automation
+2025-03-19 10:36:31,953 - Borrow button for 'Python Automation' not found.
+2025-03-19 10:36:36,201 - Error in edge: Borrow limit alert not shown
+2025-03-19 10:41:18,138 - ====== WebDriver manager ======
+2025-03-19 10:41:19,094 - Get LATEST chromedriver version for google-chrome
+2025-03-19 10:41:19,157 - Get LATEST chromedriver version for google-chrome
+2025-03-19 10:41:19,189 - Driver [C:\Users\Prakhar\.wdm\drivers\chromedriver\win64\134.0.6998.88\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-19 10:41:20,384 - Testing on chrome
+2025-03-19 10:41:22,778 - Signed in successfully
+2025-03-19 10:41:24,925 - Page loaded successfully with title: E-Library Management
+2025-03-19 10:41:24,938 - Search box or results not found for book: Python Automation
+2025-03-19 10:41:24,953 - Borrow button for 'Python Automation' not found.
+2025-03-19 10:41:29,206 - Error in chrome: Borrow limit alert not shown
+2025-03-19 10:41:31,400 - ====== WebDriver manager ======
+2025-03-19 10:41:32,210 - Get LATEST geckodriver version for None firefox
+2025-03-19 10:41:32,334 - Error in firefox: response body:
+{"message":"API rate limit exceeded for 103.47.74.66. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)","documentation_url":"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting"}
+
+request url:
+https://api.github.com/repos/mozilla/geckodriver/releases/latest
+response headers:
+{'Date': 'Wed, 19 Mar 2025 05:11:32 GMT', 'Server': 'Varnish', 'Strict-Transport-Security': 'max-age=31536000; includeSubdomains; preload', 'X-Content-Type-Options': 'nosniff', 'X-Frame-Options': 'deny', 'X-XSS-Protection': '1; mode=block', 'Content-Security-Policy': "default-src 'none'; style-src 'unsafe-inline'", 'Access-Control-Allow-Origin': '*', 'Access-Control-Expose-Headers': 'ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-RateLimit-Used, X-RateLimit-Resource, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset', 'Content-Type': 'application/json; charset=utf-8', 'Referrer-Policy': 'origin-when-cross-origin, strict-origin-when-cross-origin', 'X-GitHub-Media-Type': 'github.v3; format=json', 'X-RateLimit-Limit': '60', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1742362989', 'X-RateLimit-Resource': 'core', 'X-RateLimit-Used': '60', 'Content-Length': '278', 'X-GitHub-Request-Id': 'E62D:2F6E65:5218AC:6C4E32:67DA5204'}
+
+2025-03-19 10:41:32,334 - ====== WebDriver manager ======
+2025-03-19 10:41:33,222 - Get LATEST edgedriver version for Edge 134.0.3124
+2025-03-19 10:41:33,285 - Get LATEST edgedriver version for Edge 134.0.3124
+2025-03-19 10:41:33,446 - Driver [C:\Users\Prakhar\.wdm\drivers\edgedriver\win64\134.0.3124.72\msedgedriver.exe] found in cache
+2025-03-19 10:41:34,648 - Testing on edge
+2025-03-19 10:41:37,107 - Signed in successfully
+2025-03-19 10:41:39,217 - Page loaded successfully with title: E-Library Management
+2025-03-19 10:41:39,233 - Search box or results not found for book: Python Automation
+2025-03-19 10:41:39,249 - Borrow button for 'Python Automation' not found.
+2025-03-19 10:41:43,476 - Error in edge: Borrow limit alert not shown
