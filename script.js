@@ -209,7 +209,7 @@ function checkUserSession() {
 
 function loadBooks() {
     let books = [
-        { title: "Python Automation", author: "Prakhar" },
+        { title: "Python Automation"},
         { title: "Book 1", author: "Author A" },
         { title: "Book 2", author: "Author B" },
         { title: "Book 3", author: "Author C" }
@@ -223,7 +223,7 @@ function loadBooks() {
         borrowButton.textContent = "Borrow";
         borrowButton.onclick = function() { borrowBook(index, book); };
         li.appendChild(borrowButton);
-        bookList.appendChild(li);
+        bookList.appendChild(li);   
     });
 }
 
