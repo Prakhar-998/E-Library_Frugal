@@ -207,3 +207,93 @@ response headers:
 2025-03-19 10:47:21,164 - Search box or results not found for book: Python Automation
 2025-03-19 10:47:21,180 - Borrow button for 'Python Automation' not found.
 2025-03-19 10:47:25,451 - Error in edge: Borrow limit alert not shown
+2025-03-19 10:49:54,577 - ====== WebDriver manager ======
+2025-03-19 10:49:55,611 - Get LATEST chromedriver version for google-chrome
+2025-03-19 10:49:55,660 - Get LATEST chromedriver version for google-chrome
+2025-03-19 10:49:55,688 - Driver [C:\Users\Prakhar\.wdm\drivers\chromedriver\win64\134.0.6998.88\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-19 10:49:57,001 - Testing on chrome
+2025-03-19 10:49:59,899 - Signed in successfully
+2025-03-19 10:50:02,001 - Page loaded successfully with title: E-Library Management
+2025-03-19 10:50:02,017 - Search box or results not found for book: Python Automation
+2025-03-19 10:50:02,033 - Borrow button for 'Python Automation' not found.
+2025-03-19 10:50:06,293 - Error in chrome: Borrow limit alert not shown
+2025-03-19 10:50:08,488 - ====== WebDriver manager ======
+2025-03-19 10:50:09,329 - Get LATEST geckodriver version for None firefox
+2025-03-19 10:50:09,436 - Error in firefox: response body:
+{"message":"API rate limit exceeded for 103.47.74.66. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)","documentation_url":"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting"}
+
+request url:
+https://api.github.com/repos/mozilla/geckodriver/releases/latest
+response headers:
+{'Date': 'Wed, 19 Mar 2025 05:20:09 GMT', 'Server': 'Varnish', 'Strict-Transport-Security': 'max-age=31536000; includeSubdomains; preload', 'X-Content-Type-Options': 'nosniff', 'X-Frame-Options': 'deny', 'X-XSS-Protection': '1; mode=block', 'Content-Security-Policy': "default-src 'none'; style-src 'unsafe-inline'", 'Access-Control-Allow-Origin': '*', 'Access-Control-Expose-Headers': 'ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-RateLimit-Used, X-RateLimit-Resource, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset', 'Content-Type': 'application/json; charset=utf-8', 'Referrer-Policy': 'origin-when-cross-origin, strict-origin-when-cross-origin', 'X-GitHub-Media-Type': 'github.v3; format=json', 'X-RateLimit-Limit': '60', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1742362989', 'X-RateLimit-Resource': 'core', 'X-RateLimit-Used': '60', 'Content-Length': '278', 'X-GitHub-Request-Id': 'E754:1175F1:59FB2B:746467:67DA5409'}
+
+2025-03-19 10:50:09,439 - ====== WebDriver manager ======
+2025-03-19 10:50:10,388 - Get LATEST edgedriver version for Edge 134.0.3124
+2025-03-19 10:50:10,450 - Get LATEST edgedriver version for Edge 134.0.3124
+2025-03-19 10:50:10,492 - Driver [C:\Users\Prakhar\.wdm\drivers\edgedriver\win64\134.0.3124.72\msedgedriver.exe] found in cache
+2025-03-19 10:50:11,749 - Testing on edge
+2025-03-19 10:50:14,515 - Signed in successfully
+2025-03-19 10:50:16,682 - Page loaded successfully with title: E-Library Management
+2025-03-19 10:50:16,698 - Search box or results not found for book: Python Automation
+2025-03-19 10:50:16,698 - Borrow button for 'Python Automation' not found.
+2025-03-19 10:50:20,980 - Error in edge: Borrow limit alert not shown
+2025-03-19 10:51:10,740 - ====== WebDriver manager ======
+2025-03-19 10:51:11,776 - Get LATEST chromedriver version for google-chrome
+2025-03-19 10:51:11,819 - Get LATEST chromedriver version for google-chrome
+2025-03-19 10:51:11,850 - Driver [C:\Users\Prakhar\.wdm\drivers\chromedriver\win64\134.0.6998.88\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-19 10:51:13,081 - Testing on chrome
+2025-03-19 10:51:15,619 - Signed in successfully
+2025-03-19 10:51:17,708 - Page loaded successfully with title: E-Library Management
+2025-03-19 10:51:17,720 - Search box or results not found for book: Python Automation
+2025-03-19 10:51:17,736 - Borrow button for 'Python Automation' not found.
+2025-03-19 10:51:21,999 - Error in chrome: Borrow limit alert not shown
+2025-03-19 10:51:24,178 - ====== WebDriver manager ======
+2025-03-19 10:51:25,017 - Get LATEST geckodriver version for None firefox
+2025-03-19 10:51:25,133 - Error in firefox: response body:
+{"message":"API rate limit exceeded for 103.47.74.66. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)","documentation_url":"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting"}
+
+request url:
+https://api.github.com/repos/mozilla/geckodriver/releases/latest
+response headers:
+{'Date': 'Wed, 19 Mar 2025 05:21:25 GMT', 'Server': 'Varnish', 'Strict-Transport-Security': 'max-age=31536000; includeSubdomains; preload', 'X-Content-Type-Options': 'nosniff', 'X-Frame-Options': 'deny', 'X-XSS-Protection': '1; mode=block', 'Content-Security-Policy': "default-src 'none'; style-src 'unsafe-inline'", 'Access-Control-Allow-Origin': '*', 'Access-Control-Expose-Headers': 'ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-RateLimit-Used, X-RateLimit-Resource, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset', 'Content-Type': 'application/json; charset=utf-8', 'Referrer-Policy': 'origin-when-cross-origin, strict-origin-when-cross-origin', 'X-GitHub-Media-Type': 'github.v3; format=json', 'X-RateLimit-Limit': '60', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1742362989', 'X-RateLimit-Resource': 'core', 'X-RateLimit-Used': '60', 'Content-Length': '278', 'X-GitHub-Request-Id': 'E7A4:366343:5BB6D8:762783:67DA5455'}
+
+2025-03-19 10:51:25,147 - ====== WebDriver manager ======
+2025-03-19 10:51:26,011 - Get LATEST edgedriver version for Edge 134.0.3124
+2025-03-19 10:51:26,127 - Get LATEST edgedriver version for Edge 134.0.3124
+2025-03-19 10:51:26,178 - Driver [C:\Users\Prakhar\.wdm\drivers\edgedriver\win64\134.0.3124.72\msedgedriver.exe] found in cache
+2025-03-19 10:51:27,376 - Testing on edge
+2025-03-19 10:51:29,844 - Signed in successfully
+2025-03-19 10:51:31,965 - Page loaded successfully with title: E-Library Management
+2025-03-19 10:51:31,981 - Search box or results not found for book: Python Automation
+2025-03-19 10:51:31,997 - Borrow button for 'Python Automation' not found.
+2025-03-19 10:51:36,256 - Error in edge: Borrow limit alert not shown
+2025-03-19 10:52:09,211 - ====== WebDriver manager ======
+2025-03-19 10:52:10,114 - Get LATEST chromedriver version for google-chrome
+2025-03-19 10:52:10,158 - Get LATEST chromedriver version for google-chrome
+2025-03-19 10:52:10,191 - Driver [C:\Users\Prakhar\.wdm\drivers\chromedriver\win64\134.0.6998.88\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-19 10:52:11,390 - Testing on chrome
+2025-03-19 10:52:13,803 - Signed in successfully
+2025-03-19 10:52:15,882 - Page loaded successfully with title: E-Library Management
+2025-03-19 10:52:15,898 - Search box or results not found for book: Python Automation
+2025-03-19 10:52:15,914 - Borrow button for 'Python Automation' not found.
+2025-03-19 10:52:20,163 - Error in chrome: Borrow limit alert not shown
+2025-03-19 10:52:22,413 - ====== WebDriver manager ======
+2025-03-19 10:52:23,245 - Get LATEST geckodriver version for None firefox
+2025-03-19 10:52:23,351 - Error in firefox: response body:
+{"message":"API rate limit exceeded for 103.47.74.66. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)","documentation_url":"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting"}
+
+request url:
+https://api.github.com/repos/mozilla/geckodriver/releases/latest
+response headers:
+{'Date': 'Wed, 19 Mar 2025 05:22:23 GMT', 'Server': 'Varnish', 'Strict-Transport-Security': 'max-age=31536000; includeSubdomains; preload', 'X-Content-Type-Options': 'nosniff', 'X-Frame-Options': 'deny', 'X-XSS-Protection': '1; mode=block', 'Content-Security-Policy': "default-src 'none'; style-src 'unsafe-inline'", 'Access-Control-Allow-Origin': '*', 'Access-Control-Expose-Headers': 'ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-RateLimit-Used, X-RateLimit-Resource, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset', 'Content-Type': 'application/json; charset=utf-8', 'Referrer-Policy': 'origin-when-cross-origin, strict-origin-when-cross-origin', 'X-GitHub-Media-Type': 'github.v3; format=json', 'X-RateLimit-Limit': '60', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1742362989', 'X-RateLimit-Resource': 'core', 'X-RateLimit-Used': '60', 'Content-Length': '278', 'X-GitHub-Request-Id': 'E7E6:198851:66C0B5:813728:67DA548F'}
+
+2025-03-19 10:52:23,356 - ====== WebDriver manager ======
+2025-03-19 10:52:24,221 - Get LATEST edgedriver version for Edge 134.0.3124
+2025-03-19 10:52:24,286 - Get LATEST edgedriver version for Edge 134.0.3124
+2025-03-19 10:52:24,365 - Driver [C:\Users\Prakhar\.wdm\drivers\edgedriver\win64\134.0.3124.72\msedgedriver.exe] found in cache
+2025-03-19 10:52:25,542 - Testing on edge
+2025-03-19 10:52:28,060 - Signed in successfully
+2025-03-19 10:52:30,306 - Page loaded successfully with title: E-Library Management
+2025-03-19 10:52:30,319 - Search box or results not found for book: Python Automation
+2025-03-19 10:52:30,335 - Borrow button for 'Python Automation' not found.
+2025-03-19 10:52:34,589 - Error in edge: Borrow limit alert not shown

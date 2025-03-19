@@ -18,8 +18,8 @@ logging.basicConfig(filename='test_log.log', level=logging.INFO, format='%(ascti
 def setup_browser(browser_name):
     if browser_name == "chrome":
         driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
-    elif browser_name == "firefox":
-        driver = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()))
+    #elif browser_name == "firefox":
+        #driver = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()))
     elif browser_name == "edge":
         driver = webdriver.Edge(service=EdgeService(EdgeChromiumDriverManager().install()))
     else:
