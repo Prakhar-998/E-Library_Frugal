@@ -209,7 +209,7 @@ function checkUserSession() {
 
 function loadBooks() {
     let books = [
-        { title: "Python Automation", author: "Al Sweigart" },
+        { title: "Python Automation", author: "Prakhar" },
         { title: "Book 1", author: "Author A" },
         { title: "Book 2", author: "Author B" },
         { title: "Book 3", author: "Author C" }
